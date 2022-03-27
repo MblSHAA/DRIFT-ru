@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(29, 0, 18);
+}
+.aa {
+  display: flex;
+  justify-content: center;
+}
+.button-mus {
+  width: 50px;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+.box-mus-logo {
+  display: flex;
+  justify-content: center;
+}
+h1.aa,
+h2.aa,
+h3.aa {
+  min-height: 37px;
+}
+
+.box-pleyer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 0, 112, 1) 100%
+  );
+  width: 450px;
+  border-radius: 0.5cm;
+  border: 3px solid rgb(105, 20, 63);
+  margin: 10px;
+}
+.box-mus-contrl {
+  background-color: rgb(36, 36, 36);
+  border-radius: 15px;
+  border-top: 0.5px solid black;
+}
+.box-mus-btn {
+  display: flex;
+  flex-direction: row;
+}
+.box-vol-btn {
+  display: flex;
+  flex-direction: column;
+}
+.button-mus-vol {
+  width: 25px;
+}
+.mus-logo {
+  width: 200px;
+  border: 3px solid black;
+}
+.box-mus {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.txt-style {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 20pt;
+}
+.txt-style-footer {
+  color: rgba(255, 255, 255, 0.329);
+  display: flex;
+  justify-content: center;
+}
+.box-line-txt {
+  background-color: rgb(255, 0, 112, 1);
+  border-radius: 15px;
+  border: 4px solid rgb(105, 20, 63);
+  height: 50px;
+}
+
+.box-header {
+  background-color: rgb(226, 0, 98);
+  border-bottom: 4px solid rgb(105, 20, 63);
+  height: 80px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.box-nav-txt2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+}
+
+.box-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video {
+  border: 3px solid rgb(88, 0, 44);
+  margin: 5px;
+}
+.img-strelky {
+  width: 300px;
+  height: 200px;
+}
+.box-footer {
+  height: 50px;
+}
+.con-txt-style {
+  margin: 15px;
+  color: rgb(129, 65, 105);
+}
+.box-con-variant {
+  display: flex;
+  justify-content: space-around;
+}
+.box-con-variant {
+  height: 50px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.txt-style-nav {
+  font-size: 20pt;
+  text-decoration: none;
+  color: rgb(116, 27, 80);
+}
+.line-nav {
+  border-left: 3px solid rgb(97, 11, 63);
+  margin: 4px;
+}
+.box-Htext-Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.txt-style-nav2 {
+  color: rgb(70, 9, 45);
+}
+.txt-style {
+  font-size: 27pt;
+  color: white;
+}
+.txt-style2 {
+  font-size: 27pt;
+  color: rgb(209, 169, 192);
+  margin: 8px;
+}
+.box-nav-txt {
+  display: flex;
+  justify-content: center;
+}
+
+.mini-tabl {
+  border: 3px solid rgb(105, 20, 63);
+  border-radius: 10px;
+  width: 1200px;
+  background-color: rgb(201, 22, 99);
+}
+.tabl {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: 4px solid rgb(105, 20, 63);
+  border-radius: 0.5cm;
+  width: 1200px;
+  background: rgb(172, 25, 88);
+}
+.ptextfonk {
+  border: 1px solid white;
+}
+.div-tabl {
+  display: flex;
+  justify-content: center;
+}
+.box-nav {
+  display: flex;
+  border-radius: 10px;
+  border: 2px dashed white;
+  margin: 5px;
+  height: 60px;
+  position: absolute;
+  top: 1px;
+  right: 100px;
+  line-height: normal;
+}
+.tittle {
+  width: 140px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+.box-connection {
+  background-color: rgba(105, 17, 55, 0.301);
+  border-top: 3px solid rgb(105, 20, 63);
+}
+.search-box {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 40px;
+  border-radius: 30px;
+  padding: 5px;
+  background-color: rgb(172, 25, 88);
+  width: 300px;
+}
+.search-btn {
+  color: rgb(58, 3, 33);
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(179, 59, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.search-txt {
+  border: none;
+  outline: none;
+  background-color: rgb(172, 25, 88);
+  border-radius: 20px;
+  float: left;
+  padding: 0;
+  color: rgb(105, 20, 63);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 240px;
+  transition: 0.4s;
+}
